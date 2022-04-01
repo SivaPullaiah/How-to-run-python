@@ -3,19 +3,25 @@
     <head>
         <title>Army Registration</title>
         <style>
+            #hoverforsubmit:hover{
+                color: green ; background-color: #e76161;
+                transition: all 100ms ease-in-out;
+            }
             form{
                 height: 1000px;
                 width: 1000px;
             }
             #table{
                 height: 500px;
+                color: #800000;
             }
             body{
                 margin-top: 0px;
-                background-image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Badge_of_the_Indian_Air_Force.svg/800px-Badge_of_the_Indian_Air_Force.svg.png;
-            }
-            marquee{
-                color: #ffffff;
+                background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Badge_of_the_Indian_Air_Force.svg/800px-Badge_of_the_Indian_Air_Force.svg.png);
+                background-repeat: no-repeat;
+                background-image:;
+                background-attachment: fixed;
+                background-position: center 0%;
             }
             #object1{
                 height: 180px;
@@ -150,6 +156,15 @@
                         <tr>
                             <td><label for="address2">Perminant Adress: </label></td>
                             <td><textarea cols="20" id="address2" placeholder="city(village), house no, mandal, dist"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><br></td>
+                            <td><br></td>
+                        </tr>
+
+                        <tr>
+                           <td> <input type="submit" name="submit" placeholder="Rigister" id="hoverforsubmit"/></td>
+                           <td> <input type="reset" name="reset" placeholder="Clear" id="hoverforsubmit"></td>
                         </tr>
                     
                </table>
