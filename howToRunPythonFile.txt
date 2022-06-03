@@ -1,0 +1,13 @@
+IF YOU WANT TO RUN A FILE IN IDLE SHELL BY SCRIPT MOOD(CTRL + N)
+STEP 1: import os
+STEP 2: abs_path='folder poth past here'
+STEP 3: os.chdir(abs_path)
+STEP 4(optinal): os.getcwd()   - this will give poth of current folder
+STEP 5: exec(open('.py file').read()
+
+
+
+ And simply command that will also run .py file
+ import os
+ os.chdir("folder poth")
+ exec(open('.py file').read())
